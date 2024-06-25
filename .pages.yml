@@ -2,8 +2,8 @@ media:
   input: public
   output: /
 content:
-  - name: posts
-    label: Posts
+  - name: articles
+    label: Articles
     type: collection
     path: src/content/blog
     view:
