@@ -1,0 +1,94 @@
+{
+  "autoquotes": null,
+  "brandColors": [],
+  "corsProxy": "/corsprox",
+  "name": "astro-blog",
+  "sidebar": [
+    {
+      "icon": null,
+      "label": "Ecrire un article",
+      "target": {
+        "name": "Project.Collection",
+        "params": {
+          "path": "/.mattrbld/collections/mes-articles.json"
+        }
+      }
+    }
+  ],
+  "slugifyOptions": null,
+  "customRoles": [],
+  "draftsDir": null,
+  "previewUrl": null,
+  "languages": [],
+  "media": {
+    "advanced": true,
+    "customFields": [
+      {
+        "type": "text",
+        "default": null,
+        "icon": "text-input",
+        "key": "title",
+        "label": "Titre",
+        "localised": false,
+        "options": {
+          "wrapping": true,
+          "multiline": false
+        },
+        "validation": {
+          "enforceMinMax": true,
+          "max": null,
+          "min": null,
+          "regex": null,
+          "regexError": null,
+          "required": false,
+          "unit": "length"
+        },
+        "value": null,
+        "version": 1,
+        "visibility": {
+          "hidden": false,
+          "showByValue": {
+            "field": null
+          }
+        }
+      },
+      {
+        "type": "text",
+        "default": null,
+        "icon": "text-input",
+        "key": "alt",
+        "label": "Text alternatif",
+        "localised": false,
+        "options": {
+          "wrapping": true,
+          "multiline": false
+        },
+        "validation": {
+          "enforceMinMax": true,
+          "max": null,
+          "min": null,
+          "regex": null,
+          "regexError": null,
+          "required": false,
+          "unit": "length"
+        },
+        "value": null,
+        "version": 1,
+        "visibility": {
+          "hidden": false,
+          "showByValue": {
+            "field": null
+          }
+        }
+      }
+    ],
+    "dir": "/public/assets",
+    "maxSize": 2,
+    "outputPath": null,
+    "permissions": {
+      "everybody": [
+        "everything"
+      ]
+    }
+  }
+}
